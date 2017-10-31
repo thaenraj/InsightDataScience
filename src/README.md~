@@ -1,0 +1,14 @@
+This is the directory where your source code would reside.
+
+I used  two sets of python programs (mapper , reducer) to generate these two output files 
+
+Set 1 ) :: used to  generate insight_medianvals_by_date.txt  output file  
+insight_mapper_date.py
+insight_reducer_date.py
+
+Set 2) :: used to  generate insight_medianvals_by_zip.txt  output file  
+insight_mapper_zip.py
+insight_reducer_zip.py
+
+
+(PS:: insight_process_date_nostream.py is inprogress source code,need to fix the issue in grouping the transactiondate ) 
